@@ -1,0 +1,92 @@
+[
+  {
+    "id": "MAS-007",
+    "student_answer": "The point is outside the circle since the distance from the center (3,-5) to P is sqrt(50), which is greater than the radius of 7.",
+    "expected_score": 1.0,
+    "note": "Correct conclusion AND shows the reasoning (distance calc + comparison to radius). Full credit."
+  },
+  {
+    "id": "MAS-010",
+    "student_answer": "(x - 1)^2 + (y + 3)^2 = 41",
+    "expected_score": 0.0,
+    "note": "Sign error on the center coordinates -- correct answer is (x+1)^2 + (y-3)^2 = 41."
+  },
+  {
+    "id": "MAS-013",
+    "student_answer": "Point A is outside the circle, point B lies exactly on the circle, and point C is inside the circle.",
+    "expected_score": 0.5,
+    "note": "Correct conclusion but no reasoning shown (no distance-to-center calculations). Half credit -- guards against guessing on a low-option classification question."
+  },
+  {
+    "id": "MAS-017",
+    "student_answer": "The vertex is at (2, -2)",
+    "expected_score": 0.0,
+    "note": "Coordinates swapped/sign-flipped -- correct vertex is (-2, 2)."
+  },
+  {
+    "id": "MAS-020",
+    "student_answer": "The four intersection points are approximately (0.816, 2), (-0.816, 2), (0.816, -2), (-0.816, -2)",
+    "expected_score": 0.5,
+    "note": "Correct final points but no derivation shown. Half credit."
+  },
+  {
+    "id": "MAS-023",
+    "student_answer": "x^2/64 - y^2/36 = 1",
+    "expected_score": 0.5,
+    "note": "Correct final equation but no derivation shown. Half credit."
+  },
+  {
+    "id": "MAS-043",
+    "student_answer": "z1/z2 = 2 + i",
+    "expected_score": 0.0,
+    "note": "Arithmetic error -- correct answer is 1 + 2i."
+  },
+  {
+    "id": "MAS-052",
+    "student_answer": "z = 1/2 [cos(pi/2) + i sin(pi/2)], so the answer is option A",
+    "expected_score": 0.5,
+    "note": "Correct final answer and option, but no derivation of r and theta shown. Half credit."
+  },
+  {
+    "id": "MAS-061",
+    "student_answer": "Yes, A and B are inverses of each other since AB = I.",
+    "expected_score": 0.0,
+    "note": "Reference solution shows AB does NOT equal I, so they are not inverses."
+  },
+  {
+    "id": "MAS-075",
+    "student_answer": "(1/5)(2x^3 - 6)^5 + C",
+    "expected_score": 0.5,
+    "note": "Correct final antiderivative but no u-substitution steps shown. Half credit."
+  },
+  {
+    "id": "MAS-079",
+    "student_answer": "(1/2) ln|x^2 + sin(2x)| + C",
+    "expected_score": 0.5,
+    "note": "Correct final antiderivative but no substitution steps shown. Half credit."
+  },
+  {
+    "id": "MAS-086",
+    "student_answer": "ln|5 - tan x| + C",
+    "expected_score": 0.0,
+    "note": "Missing the negative sign -- correct answer is -ln|5 - tan x| + C. Tests whether the grader catches a sign error."
+  },
+  {
+    "id": "MAS-093",
+    "student_answer": "ln|1 + sin x| + C",
+    "expected_score": 0.5,
+    "note": "Correct final antiderivative but no substitution steps shown. Half credit."
+  },
+  {
+    "id": "MAS-099",
+    "student_answer": "x^3 * e^(5x) / 5",
+    "expected_score": 0.0,
+    "note": "Incomplete -- only the first integration-by-parts step, doesn't finish the remaining terms."
+  },
+  {
+    "id": "MAS-089",
+    "student_answer": "ln|sec x + tan x| + C",
+    "expected_score": 0.5,
+    "note": "Mathematically equivalent to the reference solution's form (tests whether the grader recognizes equivalent answers), but no derivation shown, so half credit under the reasoning standard."
+  }
+]
